@@ -8,7 +8,7 @@ logString = ''
 
 def send_email():
 
-    threading.Timer(5.0, send_email).start()
+    threading.Timer(300.0, send_email).start()
 
     try:
         mail = smtplib.SMTP('smtp.gmail.com', 587)
