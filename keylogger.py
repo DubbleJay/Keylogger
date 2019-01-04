@@ -16,10 +16,10 @@ def send_email():
         mail.starttls()
         
         #enter your sending email address as the first parameter and the corresponding password as the second parameter
-        mail.login('email@aol.com', 'password')
+        mail.login('email@gmail.com', 'password')
         
         #enter your sending email address as the first parameter and your receiving email address as the second parameter
-        mail.sendmail('email@aol.com', 'receivingemail@hotmail.com', logString)
+        mail.sendmail('email@gmail.com', 'receivingemail@hotmail.com', logString)
         
         mail.close()
 
