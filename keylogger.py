@@ -15,7 +15,7 @@ def send_email():
         mail.ehlo()
         mail.starttls()
         
-        #enter yout sending email address as the first parameter and the corresponding password as the second parameter
+        #enter your sending email address as the first parameter and the corresponding password as the second parameter
         mail.login('email@aol.com', 'password')
         
         #enter your sending email address as the first parameter and your receiving email address as the second parameter
